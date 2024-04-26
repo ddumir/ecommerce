@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ecommerce</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="don_t_have_a_account">Don\'t have a account</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="logo_description">logo_description</string>
+    <string name="title_activity_user_location">UserLocation</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="my_map_api_key">**********************</string>
+    <string name="profile">PROFILE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

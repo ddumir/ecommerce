@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="getStartedButton" type="id" />
+    <item name="action_search" type="id" />
+    <item name="ratingBar" type="id" />
+    <item name="ratingTxt" type="id" />
+    <item name="priceTxt" type="id" />
+    <item name="imageView5" type="id" />
+    <item name="reviewTxt" type="id" />
+    <item name="oldPriceTxt" type="id" />
+</resources>

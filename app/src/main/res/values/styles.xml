@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="OTPTextInputLayoutStyle"></style>
+    <style name="AppBottomAppBar" parent="Widget.MaterialComponents.BottomAppBar">
+        <!-- Customize attributes here -->
+        <item name="fabAlignmentMode">center</item>
+    </style>
+</resources>

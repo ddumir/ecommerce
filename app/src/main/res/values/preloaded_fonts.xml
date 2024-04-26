@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/actor</item>
+        <item>@font/adamina</item>
+        <item>@font/arbutus</item>
+        <item>@font/b612</item>
+        <item>@font/baloo_bhai</item>
+        <item>@font/barriecito</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/chewy</item>
+        <item>@font/creepster</item>
+        <item>@font/monoton</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/titan_one</item>
+    </array>
+</resources>

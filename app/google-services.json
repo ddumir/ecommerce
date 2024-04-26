@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "882550430642",
+    "firebase_url": "https://otp-eef9a-default-rtdb.firebaseio.com",
+    "project_id": "otp-eef9a",
+    "storage_bucket": "otp-eef9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882550430642:android:c8daf77b79415b07c1a2ab",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmt8noc3ffM6MNgRQLwPYxfqLB2s1rzwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882550430642:android:efe3dafb382b00f8c1a2ab",
+        "android_client_info": {
+          "package_name": "com.example.newotp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmt8noc3ffM6MNgRQLwPYxfqLB2s1rzwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

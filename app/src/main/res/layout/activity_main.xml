@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p1"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-85dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="409dp"
+            android:layout_height="131dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="-39dp"
+            android:fontFamily="@font/bungee_shade"
+            android:text="WELCOME"
+            android:textColor="#000000"
+            android:textSize="60sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="4000dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/card_background"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:fontFamily="@font/titan_one"
+                    android:text="ENTER YOUR MOBILE NUMBER"
+                    android:textColor="#000000"
+
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="We will send a Verification Code"
+                    android:textColor="#000000"
+
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/editTextPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Phone Number"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:id="@+id/Get_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/rounded_button_background"
+                    android:onClick="Get_otp"
+                    android:text="Get OTP" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    android:layout_gravity="center"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="174dp"
+                    android:layout_height="18dp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
